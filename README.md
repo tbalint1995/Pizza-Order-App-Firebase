@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+![1 Log In](https://user-images.githubusercontent.com/93486996/155142239-27018e67-89d1-4566-8215-7c32f37909e0.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![2 Password Reset](https://user-images.githubusercontent.com/93486996/155142250-93212a2d-b48e-4d89-911e-0ad556cd60e2.jpg)
 
-## Available Scripts
+![3  Pizza Order](https://user-images.githubusercontent.com/93486996/155142275-9ab59614-207b-4610-bcd7-0c4bed8d48c7.jpg)
 
-In the project directory, you can run:
+![4  Profile -  Update Profile](https://user-images.githubusercontent.com/93486996/155142288-eb6ba8a3-621c-486a-976a-6035956b614a.jpg)
 
-### `npm start`
+![5 Update Profile](https://user-images.githubusercontent.com/93486996/155142319-fc742b61-c89a-45a0-975a-00981d6f3653.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![6  Sign Up](https://user-images.githubusercontent.com/93486996/155142327-0cb542f5-8c66-4905-a5fb-0f63388f6a35.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![firebase - authentication](https://user-images.githubusercontent.com/93486996/155142337-0253f073-0300-4417-8018-19295304e09f.jpg)
 
-### `npm test`
+![firebase - realtime database](https://user-images.githubusercontent.com/93486996/155142344-541689ab-583d-4168-abfd-c5ea259e3015.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*********************
+Fontos! 
+( "react-native-firebase": "^5.6.0", 
+    "react-dom": "^17.0.2",
+    "firebase": "^8.1.1" )
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Kell készítened egy " env.local " file amiben amiben tároljuk a kapcsolódási adatokat.
+- Github az " env.local " file nem tölti fel. 
+- Azért szervezzük át ide a kapcsolódási adatokat mert nem akarjuk hogy más lássa őket. (Biztonsági okok miatt) 
 
-### `npm run eject`
+*********************
+Important!
+( "react-native-firebase": "^5.6.0", 
+    "react-dom": "^17.0.2",
+    "firebase": "^8.1.1" )
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- You need to create an "env.local" file in which to store the connection data.
+- Github does not upload the "env.local" file.
+- Let's reorganize the contact information here because we don't want anyone else to see it. (For security reasons)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*********************
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_DATABASE_URL=
+REACT_APP_FIREBASE_PROJECT_ID=
+REACT_APP_FIREBASE_STORAGE_BUCKET=
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
+REACT_APP_FIREBASE_APP_ID=
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*********************
