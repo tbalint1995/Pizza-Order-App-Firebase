@@ -19,9 +19,9 @@
 
 *********************
 Fontos! 
-( "react-native-firebase": "^5.6.0", 
-    "react-dom": "^17.0.2",
-    "firebase": "^8.1.1" )
+(  
+    "react-router-dom": "^5.2.0",
+    "firebase": "^9.6.1", )
 
 - Kell készítened egy " env.local " file amiben amiben tároljuk a kapcsolódási adatokat.
 - Github az " env.local " file nem tölti fel. 
@@ -29,9 +29,9 @@ Fontos!
 
 *********************
 Important!
-( "react-native-firebase": "^5.6.0", 
-    "react-dom": "^17.0.2",
-    "firebase": "^8.1.1" )
+( 
+    "react-router-dom": "^5.2.0",
+    "firebase": "^9.6.1", )
 
 - You need to create an "env.local" file in which to store the connection data.
 - Github does not upload the "env.local" file.
